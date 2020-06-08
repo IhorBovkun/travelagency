@@ -1,0 +1,14 @@
+@import "tour";
+@import "navbar";
+@import "userMenu";
+@import "loginForm";
+@import "sort";
+@import "localization";
+@import "pagination";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: auto;
+  //background-image: url(https://content.thriveglobal.com/wp-content/uploads/2019/07/Australian-Trip-Is-Good-for-Your-Mental-Health-1.jpg);
+}

@@ -1,0 +1,12 @@
+/target/
+/nbactions.xml
+/sandbox2.iml
+/.idea/
+/src/test/
+/src/main/webapp/images/
+
+**.css
+**.css.map
+/src/main/webapp/js/loginAJAX.js
+/src/main/java/sandbox2/controllers/Yello.java
+/src/main/java/sandbox2/Demo.java

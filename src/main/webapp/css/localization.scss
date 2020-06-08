@@ -1,0 +1,20 @@
+@import "colors";
+
+.loc {
+  float: right;
+}
+.loc-point {
+  margin: 4px 20px 4px auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.loc img {
+  height: 15px;
+}
+.loc span {
+  padding-left: 5px;
+  font-size: 12px;
+  //font-family: arial;
+  color: $a_color;
+}

@@ -1,0 +1,45 @@
+@import "colors";
+
+.dropbtn {
+  margin: inherit;
+  //background-color: $active_color;
+  color: $a_color;
+  //padding: 16px;
+  padding: 14px 16px;
+  //font-size: 16px;
+  border: none;
+}
+
+.userMenu {
+  float:right;
+  position: relative;
+  display: inline-block;
+}
+
+.userMenu-content {
+  right: 0;
+  //left: auto;
+
+  overflow: auto;
+  display: none;
+  position: absolute;
+  background-color: $userMenu_color;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.userMenu-content a {
+  text-align: center;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.userMenu-content a:hover {background-color: darken($userMenu_color, 10);}
+
+.userMenu:hover .userMenu-content {display: block;}
+
+//.userMenu:hover .dropbtn {background-color: darken($active_color, 10);}
+//.userMenu:hover .dropbtn {background-color: #3e8e41;}

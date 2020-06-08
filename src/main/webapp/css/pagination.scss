@@ -1,0 +1,27 @@
+@import "colors";
+
+.pag {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pag-button {
+  border: 1px;
+  width: 2em;
+  height: 2.2em;
+
+  margin: 5px 10px 5px 10px;
+  padding: 5px;
+  background-color: #EFEFEF;
+  cursor: pointer;
+}
+
+.pag-button:hover:not(.pag-active) {
+  background-color: darken(#EFEFEF, 10);
+}
+
+.pag-active {
+  background-color: $active_color;
+  color: #fefefe;
+}

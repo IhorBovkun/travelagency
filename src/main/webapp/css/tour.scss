@@ -1,0 +1,66 @@
+.tour-container {
+  background-color: beige;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  //align-content: space-evenly;
+  width: 1200px;
+}
+
+.tour {
+  margin: 20px; /*auto*/
+  padding: 5px;
+  background-color: #fefefe;
+  width: 250px;
+}
+.tour-img {
+  width: 100%;
+  height: 180px;
+}
+.tour-descr {
+  margin: 5px auto;
+  padding: 5px 0 0 10px;
+  min-height: 125px;
+}
+.tour-money {
+  color: darkorange;
+  text-align: right;
+  padding: 1px 5px 5px 0;
+  font-size: 18px;
+  font-family: arial;
+}
+.tour-name {
+  padding: 1px 0 5px 0;
+  font-size: 20px;
+  font-family: arial;
+}
+.tour-resort {
+  padding: 1px 0 1px 2px;
+  font-size: 16px;
+  font-family: arial;
+  color: #3E4347;
+}
+.tour-country {
+  padding: 1px 0 1px 2px;
+  font-size: 14px;
+  font-family: arial;
+  color: #3E4347;
+}
+.tour-point {
+  /*width: 100%;*/
+  margin: 5px auto;
+  padding-left: 15px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+}
+.tour-point img {
+  height: 22px;
+  padding: 2px;
+}
+.tour-point span {
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: arial;
+}
